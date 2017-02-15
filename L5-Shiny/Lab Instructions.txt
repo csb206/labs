@@ -23,7 +23,7 @@ you want the user to interact with (ui) and what will be shown depending on what
 Since the ui handles what the user sees, make sure you call whatever your output function is named (from server) in the main panel 
 section of ui (you can see this relationship in the example code R supplies when you open a shiny document).
 
-Similarly, to access your input values from ui in server, you have to access them by their inputID (input$whateveryoucalledyourinput).
+Similarly, to access your input values from ui in server, you have to access them by their inputID (input$whateveryoucalledyourinput). yo!
 
 Create a selectInput in ui where the user can select either Men, Women, or Both. 
 Create a selectInput in ui where the user can select if they Agree or Disagree.
